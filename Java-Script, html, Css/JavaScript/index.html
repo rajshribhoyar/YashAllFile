@@ -1,0 +1,60 @@
+<html>
+    <head>
+<title>Learn JavaScript</title>
+    </head>
+    <body>
+<h1>
+    We are watch first video
+</h1>
+<h2>It Is heplfull video</h2>
+<p>javascript is favorite programming langauge </p>
+<hr>  
+
+
+<h1 id="my-content"></h1>
+
+<h2 style="display:none;" id="change-Contenth-heading">
+    My College Name Is MyCollege</h2>
+
+<button onclick="changeContent()">Change</button>
+<button>Success</button>
+
+<script src="my.js"></script>
+<script>
+
+function changeContent(){
+   // alert("test")
+
+   var element=document.getElementById("change-Contenth-heading");
+   element.innerHTML="this is new content";
+   element.style.display="block";
+   element.style.color="red";
+   element.style.backgroundColor="yellow";
+   document.body.style.backgroundColor="green";
+
+
+}
+
+    //document.write("<h1>Script</h1>");
+    // document.write("This is Script langauge");
+    document.write("<br>")// dusre line me 
+    // document.write(prompt("Enter name"));
+    // document.write(3+4)
+
+    // name=prompt("Enter name") // prompt se ek doilog box aata hai or vaha enter name kar ke save ka skte hai pae pe
+    // document.write(name)
+
+   // document.write(confirm("would you like to exit")) // yaha ok kroge to true retun karega or cancel kroge to false retun karega
+
+//document.getElementById("my-content").innerHTML="This is Dynamic content"
+
+//variable
+// var a=23
+// var b=23
+// document.write(a+b)
+
+</script>
+
+
+</body>
+</html>

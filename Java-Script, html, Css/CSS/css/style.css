@@ -1,0 +1,11 @@
+h1{
+    color: rgb(27, 2, 119);
+    background-color: rgb(78, 203, 28);
+    font-style: italic;
+    text-align: center;
+    border:5px darkblue;
+    border-color: black;
+    width: 1200px;height: 40px;
+    padding: 20px;
+
+     }
